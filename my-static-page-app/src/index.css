@@ -2,4 +2,25 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+#root{
+    width: 549px;
+    margin: 0 auto;
+}
+nav{
+    background-color:#21222A ;
+    height: 90.93px;
+    display: flex;
+    justify-content: space-between;
+    padding:0 26px;
+    
+}
+nav > *{
+    align-self: center;
+    display: flex;
+}
+.logo >img{
+    align-self: center;
+    margin-right: 7px;
 }

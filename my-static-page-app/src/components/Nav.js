@@ -1,6 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import Logo from '../images/logo.png';
  
  export default function Nav(){
-    return (   <h1>This here will be navbar</h1>
+    return (   
+      <nav>
+         <div className='logo'>
+            <img src={Logo} width="30" alt='logo png'></img>
+            <h3>ReactFacts</h3>
+         </div>
+         <h4 className='title'>React Course - Project 1</h4>
+      </nav>
+
     )}
