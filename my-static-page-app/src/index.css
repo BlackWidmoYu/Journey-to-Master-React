@@ -27,3 +27,39 @@ nav > *{
 h3{
     color:#61DAFB ;
 }
+main{
+    background-color:  #282D35;
+    height: 459px;;
+    background-image: url("./images/Group 1.png");
+    background-repeat: no-repeat;
+    background-position: 423px 127px ;
+}
+h1{
+    margin: 0;
+    padding-top: 57px;
+    padding-left: 27px;
+}
+ul{
+    margin: 0;
+    padding-top:46px;
+    padding-left: 74px;
+    max-width: 390px;
+    
+    
+    
+}
+/* 
+ta regula nie dziala */
+/* ul > li::marker {
+    font-size: 3rem;
+} */
+li{
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+li:before {
+    content: '\2022';
+    color:  #61DAFB;
+    padding-right: 1em;
+
+}
