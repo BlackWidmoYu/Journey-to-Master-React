@@ -4,8 +4,27 @@
 }
 body{
     width: 100%;
+    color: aliceblue;
 }
 #root{
-    width: 30%;
+    width: 55%;
     margin: 0 auto;
+    background-color: blueviolet;
 }
+
+.root-element{
+    width: 70%;
+    margin: 0 auto;
+    background-color: darkgrey;
+}
+.FaceImage{
+    display: block;
+    width: 80%;
+    margin:  0 auto;
+}
+.root-element > *{
+   display: block;
+    width: 80%;
+    margin:  0 auto;
+}
+

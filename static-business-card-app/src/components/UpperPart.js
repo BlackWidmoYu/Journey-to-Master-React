@@ -1,7 +1,8 @@
 import React  from "react"
+import FaceImage from "../images/Rectangle 90.png"
 
 export default function UpperPart(){
     return(
-        <h1>This will be Upper part of the  page</h1>
+        <img className="FaceImage" src={FaceImage} alt="Face image of some pretty woman" />
     )
 }

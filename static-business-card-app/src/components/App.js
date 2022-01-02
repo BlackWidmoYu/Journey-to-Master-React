@@ -5,10 +5,10 @@ import Main from "./MainPart";
 
 export default function App(){
     return (
-        <>
+        <div className="root-element">
             <Upper />
             <Main />
             <Lower />
-        </>
+        </div>
     )
 }
